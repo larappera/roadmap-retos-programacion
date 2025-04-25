@@ -1,0 +1,16 @@
+// URL oficial de C#: https://dotnet.microsoft.com/es-es/languages/csharp
+
+// Esto es un comentario de una sola linea en c# int edad:Aluma //
+*/ 
+Este es un comentario de varias líneas.
+   Es útil para documentar partes del código o desactivar temporalmente
+   fragmentos que no queremos ejecutar.
+*/
+string nombre = "Aluma";
+
+/// <summary>
+/// Esta función imprime un mensaje de bienvenida.
+/// </summary>
+void Saludar() {
+    Console.WriteLine("¡Hola, Aluma!");
+}
