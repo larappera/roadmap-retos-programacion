@@ -1,0 +1,30 @@
+// URL oficial de C#: https://learn.microsoft.com/es-es/dotnet/csharp/
+
+/*
+   Comentarios en C# pueden ser de una línea o mas líneas.
+   Son útiles para documentar el código y mejorar su entendimiento.
+*/
+
+// Comentario de una línea explicando una variable
+int edad = 14; // Variable de tipo entero
+// Comentario de múltiples líneas para documentación extendida
+/*
+   La constante PI representa el valor de π en matemáticas.
+   Su uso es común en cálculos geométricos.
+*/
+const double PI = 3.1416; 
+/// <summary>
+/// Función que imprime un mensaje de bienvenida.
+/// </summary>
+void Saludar() {
+    Console.WriteLine("¡Hola, C#!");
+}
+// Declaración de variables con distintos tipos de datos primitivos
+string nombre = "Aluma"; // Cadena de texto
+int numero = 100; // Número entero
+double precio = 199.99; // Número decimal
+bool esActivo = true; // Booleano (verdadero/falso)
+char inicial = 'A'; // Carácter
+
+// Imprimir mensaje en consola
+Console.WriteLine("¡Hola, C#!"); 
